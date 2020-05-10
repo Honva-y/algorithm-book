@@ -8,7 +8,7 @@ package com.honva.sort;
  **/
 public class dumSort {
     public static void main(String[] args) {
-        int[] arr = {3,6,1,2,4,8,9};
+        int[] arr = {3,4,1,2,8,6,7,9};
         heapSort(arr);
         for (int i : arr) {
             System.out.println(i);
